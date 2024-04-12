@@ -102,16 +102,17 @@ int main()
         ReadTankInfo(tankName.first);
         getAreaTankCurve(tankName.first);
         getRequiredLevel(tankName.first,tankName.second);
-        // getAreaTillLevel(tankName.first);
     }
 
-        getLoadEachStation();
+    getLoadEachStation();
+    getWeightWithTankLoad();
 
-        getWeightWithTankLoad();
+    getLoadCurveWithTank();
+    getShearForceCurveWithTank();
+    getBendingMomentCurveWithTank();
 
-    // getLoadCurveWithTank();
-    // getShearForceCurveWithTank();
-    // getBendingMomentCurveWithTank();
+    printCurveDataTank();
     
 
+    
 }

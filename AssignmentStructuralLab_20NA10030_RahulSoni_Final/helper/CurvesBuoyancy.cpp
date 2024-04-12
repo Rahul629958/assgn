@@ -53,3 +53,6 @@ void getBendingMomentCurve()
 {
   getAreaCurve(shearForceCurve,BendingMomentCurve);
 }
+
+
+
